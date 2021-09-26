@@ -7,7 +7,8 @@ class A {
 } 
      
 class Test extends A{  
-    public static void main(String args[]){  
+    public static void main(String args[]){ 
+        Test t = new Test(); 
         System.out.println("world"); 
    } 
 } 
