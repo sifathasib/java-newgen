@@ -17,5 +17,5 @@ public class HashMapTest {
         for(Map.Entry<Integer,String> m : map.entrySet()){
             System.out.println(m.getKey()+" "+m.getValue());
         }
-    }    
+    }  
 }
